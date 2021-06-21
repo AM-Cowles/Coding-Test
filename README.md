@@ -20,3 +20,4 @@ SO THAT I can gauge my progress compared to my peers
 
 The following is a screenshot of the fully functional application.
 
+![Coding Test Screenshot](Assets/coding-test.png)
