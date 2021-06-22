@@ -124,6 +124,7 @@
     @media screen and (max-width: 640px) {
     body {
             min-width: 640px;
+            background-color: black;
         }
     #wrapper {
         position: absolute;
