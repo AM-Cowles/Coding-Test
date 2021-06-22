@@ -24,7 +24,6 @@ var questions = [
         choices: ["Console Log", "Terminal or Git Bash", "For Loops", "Javascript"],
         answer: "Console Log"
     },
-
 ];
 
 var score = 0;
