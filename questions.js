@@ -1,7 +1,7 @@
 var questions = [
     {
         title: "Commonly used data types DO NOT include:",
-        choices: ["Strings", "Booleans", "Alerts", "Numbers"],
+        choices: ["Alerts", "Booleans", "Strings", "Numbers"],
         answer: "Alerts"
     },
     {
@@ -16,12 +16,12 @@ var questions = [
     },
     {
         title: "String values must be enclosed within ____ when being assigned to variables.",
-        choices: ["Commas", "Curly Brackets", "Quotes", "Parentheses"],
+        choices: ["Commas", "Quotes", "Curly Brackets", "Parentheses"],
         answer: "Quotes"
     },
     {
         title: "A very useful tool used during development and debugging for printing content to the debugger is:",
-        choices: ["Javascript", "Terminal or Git Bash", "For Loops", "Console Log"],
+        choices: ["Console Log", "Terminal or Git Bash", "For Loops", "Javascript"],
         answer: "Console Log"
     },
 
