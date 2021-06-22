@@ -36,9 +36,7 @@ var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
 var secondsLeft = 76;
-
 var holdInterval = 0;
-
 var penalty = 10;
 
 var ulCreate = document.createElement("ul");
@@ -92,11 +90,9 @@ function compare(event) {
             createDiv.textContent = "That is correct! The answer is  " + questions[questionIndex].answer;
 
         } else {
-
             secondsLeft = secondsLeft - penalty;
             createDiv.textContent = "Wrong! The correct answer is:  " + questions[questionIndex].answer;
         }
-
     }
 
     questionIndex++;
@@ -108,7 +104,6 @@ function compare(event) {
         render(questionIndex);
     }
     questionsDiv.appendChild(createDiv);
-
 }
 
 function allDone() {
@@ -117,7 +112,7 @@ function allDone() {
 
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
-    createH1.textContent = "All Done!"
+    createH1.textContent = "Finished!"
 
     questionsDiv.appendChild(createH1);
 
@@ -181,5 +176,4 @@ function allDone() {
             window.location.replace("./HighScores.html");
         }
     });
-
 }
