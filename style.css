@@ -108,7 +108,6 @@
         margin-left: 20%;
     }
         #goBack {
-            
             position: relative;
             left: 55%;
         }
@@ -117,7 +116,6 @@
             
             position: relative;
             right: 5%;
-            
         }
     }
         
@@ -134,5 +132,4 @@
     a {
         margin-left: 10%;
     }
-
 }
